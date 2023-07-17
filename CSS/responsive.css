@@ -2,6 +2,69 @@
 
 @media screen and (max-width: 576px   ) {
    /* ......... Header Section Start ........ */
+   header {
+      margin-bottom: 50px;
+    }
+   /* nav menu */
+   .nav-manu {
+      margin-top: 2rem;
+   }
+   .nav-bar {
+      display: none;
+   }
+   .menu-icon {
+      display: initial;
+   }
+   .secound-cart-icon {
+      display: initial;
+   }
+
+   
+   /* banner Section */
+   .banner-container {
+      text-align: center;
+      flex-direction: column-reverse;
+      justify-content: center;
+   }
+
+   .banner-title {
+      margin-top: 50px;
+      font-size: 1.75rem;
+      line-height: 40px;
+   }
+   .banner-description {
+      font-size: 0.875rem;
+   }
+
+.button-banner {
+   display: inline-block;
+   margin: 0 auto;
+}
+
+.banner-image-container {
+   flex: 0 0 auto;
+   height: 400px;
+}
+
+.banner-image-container > img {
+   width: 70%;
+}
+
+/* Sponsor Section */
+
+.sponsor-container {
+   flex-wrap: wrap;
+   /* flex: 0 0 0; */
+   gap: 25px;
+   align-content: center;
+   justify-content: center;
+   padding: 30px 5%;
+}
+.sponsor-image {
+   width: 60px;
+   height: 20px;
+}
+
 
 
 
@@ -26,6 +89,59 @@
 /* .......Medium Device Max-width 768px */
 @media screen and (min-width: 576.2px) and (max-width: 768px) {
    /* ......... Header Section Start ........ */
+   header {
+      margin-bottom: 50px;
+    }
+   /* nav menu */
+   .nav-manu {
+      margin-top: 3rem;
+      padding: 0 40px;
+   }
+   .nav-bar {
+      display: none;
+   }
+   .menu-icon {
+      display: initial;
+   }
+   .secound-cart-icon {
+      display: initial;
+   }
+   
+   .banner-container {
+      text-align: center;
+      flex-direction: column-reverse;
+   }
+
+   .banner-title {
+      margin-top: 50px;
+      font-size: 2.5rem;
+      line-height: 60px;
+   }
+   .banner-description {
+      font-size: 1rem;
+   }
+
+.button-banner {
+   display: inline-block;
+   margin: 0 auto;
+}
+
+.banner-image-container {
+   flex: 0 0 auto;
+   width: 100%;
+}
+
+.banner-image-container > img {
+   width: 50%;
+}
+/* Sponsor Section */
+.sponsor-container {
+   flex-wrap: wrap;
+   gap: 25px;
+   align-content: center;
+   justify-content: center;
+   padding: 30px 5%;
+}
 
 
 
@@ -50,9 +166,28 @@
 /* Mediun Device Max-width 992px */
 
 @media screen and (min-width: 768.2px) and (max-width: 992px) {
-
    /* ......... Header Section Start ........ */
+/* Nav Section */
+.nav-manu {
+   margin-top: 4rem;
+}
 
+.nav-bar {
+   flex: 0 0 60%;
+   justify-content: flex-end;
+   gap: 25px
+}
+/* Banner Section */
+.banner-content {
+   width: auto;
+   flex: 0 0 50%;
+}
+.banner-image-container {
+   flex: 0 0 45%;
+}
+.banner-image-container > img {
+   width: 80%;
+}
 
 
 /* ......... Header Section End ........ */
