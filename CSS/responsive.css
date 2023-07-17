@@ -1,0 +1,74 @@
+/* ........ Small Device Maximum Width 576Px ........ */
+
+@media screen and (max-width: 576px   ) {
+   /* ......... Header Section Start ........ */
+
+
+
+/* ......... Header Section End ........ */
+
+/* ......... Main/Body-Contents Section Start ........ */
+
+
+
+/* ......... Main/Body-Contents Section End ........ */
+
+
+/* ......... Footer Section Start ........ */
+
+
+
+
+/* ......... Footer Section End ........ */
+}
+
+
+/* .......Medium Device Max-width 768px */
+@media screen and (min-width: 576.2px) and (max-width: 768px) {
+   /* ......... Header Section Start ........ */
+
+
+
+/* ......... Header Section End ........ */
+
+/* ......... Main/Body-Contents Section Start ........ */
+
+
+
+/* ......... Main/Body-Contents Section End ........ */
+
+
+/* ......... Footer Section Start ........ */
+
+
+
+
+/* ......... Footer Section End ........ */
+}
+
+
+/* Mediun Device Max-width 992px */
+
+@media screen and (min-width: 768.2px) and (max-width: 992px) {
+
+   /* ......... Header Section Start ........ */
+
+
+
+/* ......... Header Section End ........ */
+
+/* ......... Main/Body-Contents Section Start ........ */
+
+
+
+/* ......... Main/Body-Contents Section End ........ */
+
+
+/* ......... Footer Section Start ........ */
+
+
+
+
+/* ......... Footer Section End ........ */
+   
+}
