@@ -65,13 +65,17 @@
    height: 20px;
 }
 
-
-
-
 /* ......... Header Section End ........ */
 
 /* ......... Main/Body-Contents Section Start ........ */
-
+/* Popular Collection Section */
+.collection-grid-container {
+   grid-template-columns: 1fr;
+   gap: 20px;
+ }
+ .collection-item-container {
+   justify-self: center;
+ }
 
 
 /* ......... Main/Body-Contents Section End ........ */
@@ -142,6 +146,15 @@
    justify-content: center;
    padding: 30px 5%;
 }
+
+/* Popular Collection Section */
+.collection-grid-container {
+   grid-template-columns: repeat(2,1fr);
+   gap: 25px;
+   justify-content: space-around;
+ }
+ 
+
 
 
 

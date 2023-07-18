@@ -70,7 +70,8 @@ header {
   justify-content: space-between;
   align-items: center;
 }
-.nav-bar > li, .nav-bar2 > li {
+.nav-bar > li,
+.nav-bar2 > li {
   list-style: none;
   font-size: 1rem;
   font-weight: 600;
@@ -170,10 +171,74 @@ header hr {
   justify-content: space-around;
   align-items: center;
 }
-
 /* ......... Header Section End ........ */
 
 /* ......... Main/Body-Contents Section Start ........ */
+/* Popular Collection Section*/
+.collection-container {
+  max-width: 1040px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.collection-grid-title {
+  color: var(--title-text);
+  font-size: 1.75rem;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+.collection-grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+.collection-item-container {
+  max-width: 330px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+  padding: 17px 14px;
+}
+
+.collection-item-image {
+  width: 100%; 
+  margin-bottom: 1rem;
+}
+.collection-item-image > img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center ;
+}
+.collection-item-name {
+  color: var(--card-title);
+  font-size: 1.75rem;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+.collection-item-price {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--color-price);
+}
+.item-ratings {
+  margin-bottom: 6px;
+}
+.fa-solid, .fa-regular {
+  color: var(--color-ratings);
+  font-size: 14px;
+}
+.item-ratings-value {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--ratings-text);
+  margin-left: 5px;
+}
+.item-description {
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.25rem;
+  color: var(--card-bottom-text);
+}
+
 
 /* ......... Main/Body-Contents Section End ........ */
 
